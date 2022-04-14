@@ -3,12 +3,16 @@ body{
 }
 .header{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
+}
+.app{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
 }
 .card{
     border: 1px solid black;
     border-radius: 30px;
-    width: fit-content;
+    width: 300px;
     margin:  10px auto;
    
 
@@ -31,8 +35,8 @@ form{
 .col img, .card img{
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
-    height: 50vh;
-    width: 350px;
+    height: 300px;
+    width: 300px;
     margin: auto;
 }
 ul{

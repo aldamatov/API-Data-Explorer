@@ -52,7 +52,7 @@ function renderAllUsers() {
          }).join("");
 
         const usersDiv = document.createElement('div');
-        usersDiv.classList.add('row', 'row-cols-4', 'g-4');
+        usersDiv.classList.add('row');
         
         app.appendChild(usersDiv);
          
@@ -120,7 +120,7 @@ async function renderSingleUser (id){
 
 
         const postsDiv = document.createElement('div');
-        postsDiv.classList.add('row', 'row-cols-3')
+        postsDiv.classList.add('row', 'row-cols-4')
         postsDiv.innerHTML = postsHTML
 
         app.appendChild(postsDiv)
